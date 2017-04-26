@@ -1,9 +1,7 @@
 if(!require(shiny)){install.packages("shiny", repos="http://cran.us.r-project.org")}
-if(!require(leaflet)){install.packages("leaflet", repos="http://cran.us.r-project.org")}
 if(!require(scales)){install.packages("scales", repos="http://cran.us.r-project.org")}
 if(!require(ggplot2)){install.packages("ggplot2", repos="http://cran.us.r-project.org")}
 if(!require(ggvis)){install.packages("ggvis", repos="http://cran.us.r-project.org")}
-if(!require(ggmap)){install.packages("ggmap", repos="http://cran.us.r-project.org")}
 if(!require(magrittr)){install.packages("magrittr", repos="http://cran.us.r-project.org")}
 if(!require(reshape2)){install.packages("reshape2", repos="http://cran.us.r-project.org")}
 if(!require(data.table)){install.packages("data.table", repos="http://cran.us.r-project.org")}
@@ -11,11 +9,9 @@ if(!require(tidyr)){install.packages("tidyr", repos="http://cran.us.r-project.or
 if(!require(dplyr)){install.packages("dplyr", repos="http://cran.us.r-project.org")}
 
 library(shiny)
-library(leaflet)
 library(scales)
 library(ggplot2)
 library(ggvis)
-library(ggmap)
 library(magrittr)
 library(reshape2)
 library(data.table)
