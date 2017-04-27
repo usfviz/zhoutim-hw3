@@ -358,11 +358,11 @@ server <- function(input, output, session) {
 
 		## get an even sample of everyone
 		db_pc_sample <- db_pc_raw[c(sample(which(db_pc_raw$expired == 1), 2),
-									sample(which(db_pc_raw$race == 'Caucasian'), 100),
-									sample(which(db_pc_raw$race == 'African American'), 100),
-									sample(which(db_pc_raw$race == 'Asian'), 100),
-									sample(which(db_pc_raw$race == 'Hispanic'), 100),
-									sample(which(db_pc_raw$race == 'Other'), 100))
+									sample(which(db_pc_raw$race == 'Caucasian'), 50),
+									sample(which(db_pc_raw$race == 'African American'), 50),
+									sample(which(db_pc_raw$race == 'Asian'), 50),
+									sample(which(db_pc_raw$race == 'Hispanic'), 50),
+									sample(which(db_pc_raw$race == 'Other'), 50))
 									,
 									]
 
